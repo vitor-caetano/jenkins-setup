@@ -27,4 +27,3 @@ for i in 2 3; do
 done
 
 echo ">> The swarm cluster is up and running"
-≠
