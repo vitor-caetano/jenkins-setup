@@ -17,7 +17,6 @@ pam-auth
 workflow-job
 windows-slaves
 blueocean-pipeline-editor
-aws-java-sdk
 blueocean-commons
 docker-commons
 workflow-cps
@@ -128,7 +127,6 @@ config-file-provider
 node-iterator-api
 token-macro
 parameterized-trigger
-yet-another-docker-plugin
 blueocean-display-url
 ant
 pipeline-aws

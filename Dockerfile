@@ -1,4 +1,4 @@
-FROM jenkins:alpine
+FROM jenkins/jenkins:lts
 MAINTAINER Vitor Caetano <vitor.e.caetano@gmail.com>
 
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
