@@ -3,4 +3,4 @@
 echo "admin" | docker secret create jenkins-user -
 echo "admin" | docker secret create jenkins-pass -
 
-docker stack deploy -c jenkins.yml jenkins
+docker stack deploy -c jenkins.yml jenkins --with-registry-auth --resolve-image always
